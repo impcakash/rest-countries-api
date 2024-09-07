@@ -1,0 +1,36 @@
+.nav {
+    height: 68px;
+    /* border: 1px solid red; */
+}
+
+.navInside {
+    /* border: 2px solid indigo; */
+    margin: 15px 5%;
+}
+
+.navDiv {
+    display: inline;
+    /* border: 1px solid yellowgreen; */
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navBtn {
+    display: inline;
+    background-color: transparent;
+    border-color: transparent;
+    /* border-color: teal; */
+    margin-left: 75%;
+    padding: auto;
+    font-size: 16px;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}

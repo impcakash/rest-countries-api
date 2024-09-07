@@ -1,0 +1,161 @@
+@media (max-width: 375px) {
+    body {
+        background-color: whitesmoke;
+    }
+
+    .bodyTop {
+        height: 80px;
+        /* border: 1px solid green; */
+        margin: 2% 5%;
+    }
+
+    .bodyInput {
+        display: inline;
+    }
+
+    input {
+        width: 25%;
+        height: 30px;
+        /* margin: 5%; */
+    }
+
+    .bodySelect {
+        display: inline;
+    }
+
+    select {
+        width: 12%;
+        height: 30px;
+        margin-left: 59%;
+    }
+
+    .bodyDown {
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        gap: 80px;
+        margin: 2% 5%;
+    }
+
+    .bodyData {
+        /* border: 1px solid saddlebrown; */
+        height: 370px;
+        /* width: 23%; */
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .bodyDataDetails {
+        margin-left: 5%;
+    }
+
+    .nav {
+        height: 68px;
+        /* border: 1px solid red; */
+    }
+
+    .navInside {
+        /* border: 2px solid indigo; */
+        margin: 15px 5%;
+    }
+
+    .navDiv {
+        display: inline;
+        /* border: 1px solid yellowgreen; */
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .navBtn {
+        display: inline;
+        background-color: transparent;
+        border-color: transparent;
+        /* border-color: teal; */
+        margin-left: 75%;
+        padding: auto;
+        font-size: 16px;
+    }
+
+    .light-mode {
+        background-color: white;
+        color: black;
+    }
+
+    .dark-mode {
+        background-color: #121212;
+        color: white;
+    }
+}
+
+@media (min-width: 376px) {
+
+    body {
+        background-color: whitesmoke;
+    }
+
+    .bodyTop {
+        height: 80px;
+        /* border: 1px solid green; */
+        margin: 2% 5%;
+    }
+
+    .bodyInput {
+        display: inline;
+    }
+
+    input {
+        width: 25%;
+        height: 30px;
+        /* margin: 5%; */
+    }
+
+    .bodySelect {
+        display: inline;
+    }
+
+    select {
+        width: 12%;
+        height: 30px;
+        margin-left: 59%;
+    }
+
+    .bodyDown {
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        gap: 80px;
+        margin: 2% 5%;
+    }
+
+    .bodyData {
+        /* border: 1px solid saddlebrown; */
+        height: 370px;
+        /* width: 23%; */
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .bodyDataDetails {
+        margin-left: 5%;
+    }
+
+    .light-mode {
+        background-color: white;
+        color: black;
+    }
+
+    .dark-mode {
+        background-color: #121212;
+        color: white;
+    }
+}
