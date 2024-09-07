@@ -23,7 +23,7 @@ export const CountryDataDetails = () => {
         console.log("Datas: ", data);
         setCountry(data);
       });
-  }, []);
+  }, [id]);
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
